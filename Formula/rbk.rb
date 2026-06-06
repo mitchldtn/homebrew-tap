@@ -4,13 +4,8 @@ class Rbk < Formula
   version "0.1.2"
 
   on_macos do
-    if Hardware::CPU.arm?
-      url "https://github.com/mitchldtn/rbk/releases/download/v#{version}/rbk-aarch64-apple-darwin.tar.gz"
-      sha256 "REPLACE_WITH_AARCH64_SHA256"
-    else
-      url "https://github.com/mitchldtn/rbk/releases/download/v#{version}/rbk-x86_64-apple-darwin.tar.gz"
-      sha256 "REPLACE_WITH_X86_64_SHA256"
-    end
+    url "https://github.com/mitchldtn/rbk/releases/download/v#{version}/rbk-aarch64-apple-darwin.tar.gz"
+    sha256 "553c9a8db59f6c32e4324d0e01457c13850082616377a3f0e84312e186fb664b"
   end
 
   def install
