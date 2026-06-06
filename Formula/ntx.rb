@@ -6,7 +6,7 @@ class Ntx < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/mitchldtn/ntx/releases/download/v#{version}/ntx-aarch64-apple-darwin.tar.gz"
-      sha256 "REPLACE_WITH_ARM64_SHA256"
+      sha256 "959deb4c642a19e2a1001ee2166cdb6fad84af325596124ffd6f1ee0080b45f7"
     else
       url "https://github.com/mitchldtn/ntx/releases/download/v#{version}/ntx-x86_64-apple-darwin.tar.gz"
       sha256 "REPLACE_WITH_X86_64_SHA256"
