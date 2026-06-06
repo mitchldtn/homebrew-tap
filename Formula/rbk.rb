@@ -1,11 +1,11 @@
 class Rbk < Formula
   desc "Terminal with a notes sidebar — run command snippets directly from markdown notes"
   homepage "https://github.com/mitchldtn/rbk"
-  version "0.1.2"
+  version "0.1.3"
 
   on_macos do
     url "https://github.com/mitchldtn/rbk/releases/download/v#{version}/rbk-aarch64-apple-darwin.tar.gz"
-    sha256 "553c9a8db59f6c32e4324d0e01457c13850082616377a3f0e84312e186fb664b"
+    sha256 "4fbeae5c2a6aeab7b7ba7f391078f80b86dace103b49eebb1286846ce12b9a1b"
   end
 
   def install
