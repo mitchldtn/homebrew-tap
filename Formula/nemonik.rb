@@ -1,14 +1,9 @@
 class Nemonik < Formula
   desc "Login once, launch Claude Code or Codex with a verified nemonik template as a system prompt"
   homepage "https://nemonik.io"
-  url "https://github.com/mitchldtn/homebrew-tap/releases/download/v0.0.14/nemonik.zip"
-  sha256 "6673b69b3a754603e4969a5429412ffacdc049c93c482a0560c1591e6c234bc5"
-  version "0.0.14"
-
-  # Every `nemonik run` is a tmux session (see the CLI README), so
-  # tmux is a hard runtime dependency, not optional -- declare it so
-  # `brew install` pulls it in for anyone who doesn't already have it.
-  depends_on "tmux"
+  url "https://github.com/mitchldtn/homebrew-tap/releases/download/v0.0.15/nemonik.zip"
+  sha256 "e26bfdc28db955d0a697f9b00acf661d4484588a84f929810fcba0354103d908"
+  version "0.0.15"
 
   def install
     bin.install "nemonik"
