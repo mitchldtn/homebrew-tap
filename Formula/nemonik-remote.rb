@@ -1,9 +1,9 @@
 class NemonikRemote < Formula
   desc "nemonik plugin: remote-control daemon (nemonik remote daemon/watch)"
   homepage "https://nemonik.io"
-  url "https://github.com/mitchldtn/homebrew-tap/releases/download/v0.0.18/nemonik-remote.zip"
-  sha256 "e93d7f8332620822f322e015565909b484da3e8696a5bfd0cdfa4324c584c8e3"
-  version "0.0.18"
+  url "https://github.com/mitchldtn/homebrew-tap/releases/download/v0.0.19/nemonik-remote.zip"
+  sha256 "6f1abd01dd70dc0f45ea3b8eb22ce39a87571f41658daf959bde794391b5d22b"
+  version "0.0.19"
 
   depends_on "nemonik"
   depends_on "tmux"

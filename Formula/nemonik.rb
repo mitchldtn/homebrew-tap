@@ -1,9 +1,9 @@
 class Nemonik < Formula
   desc "Login once, launch Claude Code or Codex with a verified nemonik template as a system prompt"
   homepage "https://nemonik.io"
-  url "https://github.com/mitchldtn/homebrew-tap/releases/download/v0.0.18/nemonik.zip"
-  sha256 "10905323d08e9cefce29ae8e153a910a1f71f56004ea86ca9d662fa237b77788"
-  version "0.0.18"
+  url "https://github.com/mitchldtn/homebrew-tap/releases/download/v0.0.19/nemonik.zip"
+  sha256 "c9dd33c046321ecf3e29d4ebd50c38b50ed84d0b2914adce5e75bae1a5d7c851"
+  version "0.0.19"
 
   def install
     bin.install "nemonik"

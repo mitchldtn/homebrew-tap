@@ -1,9 +1,9 @@
 class NemonikTmux < Formula
   desc "nemonik plugin: managed, re-attachable tmux sessions (nemonik tmux attach/write/read)"
   homepage "https://nemonik.io"
-  url "https://github.com/mitchldtn/homebrew-tap/releases/download/v0.0.18/nemonik-tmux.zip"
-  sha256 "9247a208483ed6191c3de85b3aeef6989da76e1c01ad40495c574758b369dc1a"
-  version "0.0.18"
+  url "https://github.com/mitchldtn/homebrew-tap/releases/download/v0.0.19/nemonik-tmux.zip"
+  sha256 "f5316c30e964d44ab1449308e696cf10e512fc47ad0d5bca0bd2ec152f3045fb"
+  version "0.0.19"
 
   depends_on "nemonik"
   depends_on "tmux"
