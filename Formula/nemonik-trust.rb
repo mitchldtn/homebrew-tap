@@ -1,9 +1,9 @@
 class NemonikTrust < Formula
   desc "nemonik plugin: rich browser review views for verify + skill conflicts"
   homepage "https://nemonik.io"
-  url "https://github.com/mitchldtn/homebrew-tap/releases/download/v0.0.19/nemonik-trust.zip"
-  sha256 "0db6e6edc33059ff705f6b9ed8d62e523545315e0c402c3b7ce04cba0884f751"
-  version "0.0.19"
+  url "https://github.com/mitchldtn/homebrew-tap/releases/download/v0.0.20/nemonik-trust.zip"
+  sha256 "b14f73e02c0c5d9bfb764f52b41acdb07ba410455bca94ba4cd81e0144250282"
+  version "0.0.20"
 
   depends_on "nemonik"
 
