@@ -1,9 +1,9 @@
 class Nemonik < Formula
-  desc "Login once, launch Claude Code or Codex with a verified nemonik template as a system prompt"
+  desc "Package how your team works into kits you share and refine: the system prompt, skills, MCP servers and hooks for planning, coding and reviewing"
   homepage "https://nemonik.io"
-  url "https://github.com/mitchldtn/homebrew-tap/releases/download/v0.0.28/nemonik.zip"
-  sha256 "daa841ea570e6fd71bc537a400323596ecbb012bf38692e36005780a0857154e"
-  version "0.0.28"
+  url "https://github.com/mitchldtn/nemonik/releases/download/v0.0.29/nemonik.zip"
+  sha256 "65d4284c1b57ec6f4abcc4f9c9c9777d2111d28edd7bf08b73ea0c0b13a179ba"
+  version "0.0.29"
 
   depends_on "tmux"
 
