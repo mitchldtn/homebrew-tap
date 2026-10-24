@@ -1,9 +1,9 @@
 class Nemonik < Formula
   desc "Package how your team works into kits you share and refine: the system prompt, skills, MCP servers and hooks for planning, coding and reviewing"
   homepage "https://nemonik.io"
-  url "https://github.com/mitchldtn/nemonik/releases/download/v0.0.30/nemonik.zip"
-  sha256 "6a0c9abae9f44806e145900524a4162bc4b538f6b072cc26b924ab1cbc4f98e7"
-  version "0.0.30"
+  url "https://github.com/mitchldtn/nemonik/releases/download/v0.0.31/nemonik.zip"
+  sha256 "9f64fcdbfd7c5d1cd6ae105d400c728720ca1adedbf24a1678ffa7bac838a214"
+  version "0.0.31"
 
   depends_on "tmux"
 
